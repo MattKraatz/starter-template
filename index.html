@@ -5,20 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KRAATZ HELLO</title>
-  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="dist/main.css">
 </head>
-<body>
+<body ng-app="mainApp">
+<div ng-view>
+
+</div>
 
 
 <!-- Third-Party Dependencies -->
-<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="lib/bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular/angular.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular-google-chart/ng-google-chart.min.js"></script>
 <!-- Main App -->
 <script type="text/javascript" src="src/js/scripts.js"></script>
 <!-- Controllers -->
 <script type="text/javascript" src="src/js/controllers/MainCtrl.js"></script>
+<script type="text/javascript" src="src/js/controllers/ChartCtrl.js"></script>
+<script type="text/javascript" src="src/js/controllers/ListCtrl.js"></script>
 <!-- Factories -->
 <script type="text/javascript" src="src/js/factories/MainFactory.js"></script>
 <!-- DEV LIVERELOAD -->
