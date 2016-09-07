@@ -25,8 +25,5 @@
     "hbsfy": "^2.7.0",
     "matchdep": "^0.3.0"
   },
-  "dependencies": {
-    "angular-google-chart": "^0.1.0",
-    "angular-route": "^1.5.8"
-  }
+  "dependencies": {}
 }
