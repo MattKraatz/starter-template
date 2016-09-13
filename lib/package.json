@@ -11,18 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^13.1.0",
-    "gh-pages": "^0.11.0",
     "grunt": "^1.0.1",
-    "grunt-browserify": "^5.0.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-contrib-handlebars": "^1.0.0",
     "grunt-jsonlint": "^1.1.0",
     "http-server": "^0.9.0",
-    "handlebars": "^4.0.5",
-    "hbsfy": "^2.7.0",
     "matchdep": "^0.3.0"
   },
   "dependencies": {}

@@ -1,5 +1,4 @@
 .DS_store
-lib/bower_components
-lib/node_modules
+/lib
 /dist
 .sass-cache
